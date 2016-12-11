@@ -6,8 +6,8 @@ var stateList = require('./states');
 
 var NPS_URL = 'https://developer.nps.gov/api/v0/parks?parkCode=';
 var WEATHER_URL = 'http://api.openweathermap.org/data/2.5/weather?APPID=';
-var NPS_API_KEY = 'A1E7C69D-4756-4D69-AD04-B1633E65064F';
-var OPEN_WEATHER_API_KEY = 'ade6b9686ebe18df4e82898146d1132f';
+var NPS_API_KEY = 'Replace with your NPS API key';
+var OPEN_WEATHER_API_KEY = 'Replace with your OpenWeatherMap API key';
 
 module.exports = {
    findParkIndex,

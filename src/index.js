@@ -19,7 +19,7 @@ var utils = require('./utils');
 /**
  * URLs for NPS, Wikipedia, and OpenWeather APIs
  */
-var S3_BUCKET = 'https://s3.amazonaws.com/natlparks.loudlr.com/';
+var S3_BUCKET = 'Replace with path to S3 bucket containing sound clips';
 
 
 var cardTitle = 'U.S. National Parks';
