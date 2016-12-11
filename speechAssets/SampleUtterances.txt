@@ -1,0 +1,29 @@
+GetParkIntent {park}
+GetParkIntent {park} national park
+GetParkIntent {park} park
+
+GetWeatherIntent weather
+GetWeatherIntent what's the weather
+GetWeatherIntent how's the weather
+GetWeatherIntent what's the temperature
+GetWeatherIntent temperature
+
+GetDirectionsIntent directions
+GetDirectionsIntent how do i get there
+
+GetLocationIntent location
+GetLocationIntent state
+GetLocationIntent which state is it in
+GetLocationIntent where is it
+
+GetStateIntent {state}
+
+AMAZON.StopIntent no
+AMAZON.StopIntent nope
+AMAZON.StopIntent no thanks
+AMAZON.StopIntent no thank you
+AMAZON.StopIntent goodbye
+AMAZON.StopIntent bye
+AMAZON.StopIntent end
+AMAZON.StopIntent finish
+AMAZON.StopIntent done

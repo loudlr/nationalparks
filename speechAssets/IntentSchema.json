@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "intent": "GetParkIntent",
+      "slots": [
+        {
+          "name": "park",
+          "type": "LIST_OF_PARKS"
+        }
+      ]
+    },
+    {
+      "intent": "GetStateIntent",
+      "slots": [
+        {
+          "name": "state",
+          "type": "AMAZON.US_STATE"
+        }
+      ]
+    },
+    {
+      "intent": "GetWeatherIntent"
+    },
+    {
+      "intent": "GetDirectionsIntent"
+    },
+    {
+      "intent": "GetLocationIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
