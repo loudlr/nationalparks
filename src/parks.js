@@ -1,5 +1,5 @@
 /*
- * List of U.S national parks, along with NPS park codes, audio filenames, and Wikipedia topic.
+ * List of U.S national parks, along with NPS park codes and audio filenames.
  */
 
 module.exports =
