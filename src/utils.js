@@ -69,7 +69,8 @@ function getJsonFromNPS(park, eventCallback) {
       path: '/api/v0/parks?parkCode=' + park,
       method: 'GET',
       headers: {
-        'Authorization': NPS_API_KEY
+        'Authorization': NPS_API_KEY,
+        'User-Agent': 'Node/NPS-Alexa-Skill (1.0)'
       }
     };
 
